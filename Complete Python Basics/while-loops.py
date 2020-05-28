@@ -49,5 +49,15 @@ while row < triangleStars:
     row += 1
     print()
 
-# Printing a heart
+# Prints upside down triangle
+howManyStars = int(input("Enter the number of rows:"))
+i = 0
+while i < howManyStars:
+    c = howManyStars
+    while(c > i):
+        c = c - 1
+        print('*', end=' ')
+    i = i + 1
+    print()
+
 
