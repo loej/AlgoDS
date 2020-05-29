@@ -60,4 +60,30 @@ while i < howManyStars:
     i = i + 1
     print()
 
+# Full Triangle
+
+configureNumber = int(input("How many stars do you want?: "))
+
+rows = 0
+# Main constraint
+while rows < configureNumber:
+    # We need to print a star and space
+    space = configureNumber - rows -1
+    # 0 is the boundry
+    while space > 0:
+        print(end = " ")
+        # We want it to terminate using -1, space = 3 => 3 -1 => space = 2 => 2-1 => space = 1 etc.
+        space -= 1
+    # print star
+    star = rows + 1
+    while star > 0:
+        print("*",end=" ")
+        # We want end to be in the same line.
+        star -= 1
+        # we need to continue the other half
+    # we need to increment row value
+    rows += 1
+    print()
+
+
 
