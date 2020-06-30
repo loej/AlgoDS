@@ -41,4 +41,4 @@ list = ["Iteration aaa","Iteration bbb","Iteration ccc","Iteration ddd"]
 for h in list:
     print(h)
     if h == "Iteration aaa":
-        continue
+        break
