@@ -20,8 +20,6 @@ for z in str1:
 # Break completely stops the iteration at that point
 list = ["Iteration 1","Iteration 2","Iteration 3","Iteration 4"]
 for i in list:
-    if i == "Iteration 3":
-        break
     print(i)
 
 # Continue skips over the iteration
