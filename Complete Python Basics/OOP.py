@@ -15,12 +15,18 @@ class Car:
 
     # Setting attributes
     def __init__(self, brand, maxspeed, color):
-        self.brand = 'Lexus'
-        self.maxspeed = 200
-        self.color = 'blue'
+        self.brand = brand
+        self.maxspeed = maxspeed
+        self.color = color
 
     def printCar(self):
-        print(self.brand)
+       x = print(self.brand,self.maxspeed,self.color)
+
+class City:
+
+    def __init__(self, type ):
+        pass
 
 
-
+Mercedes = Car('Mercedes',200,'white')
+Mercedes.printCar()
