@@ -10,3 +10,4 @@ the list of books and authors. Licensed under a Creative Commons licence.
 * [Control Flow (If-Elif-Else)](https://github.com/loej/Python-DataStructures/blob/master/Complete%20Python%20Basics/if-ifelse-statements.py)
 * [While Loops](https://github.com/loej/Python-DataStructures/blob/master/Complete%20Python%20Basics/while-loops.py)
 * [For Loops](https://github.com/loej/Python-DataStructures/blob/master/Complete%20Python%20Basics/for-loops.py)
+* [Object Oriented Programming](https://github.com/loej/Python-DataStructures/blob/master/Complete%20Python%20Basics/OOP.py)
