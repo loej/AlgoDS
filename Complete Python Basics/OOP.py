@@ -43,6 +43,14 @@ class City:
         print(self.type, self.capacity, self.name)
 
 
+class Employee:
+
+    def __init__(self, totalEmployees, pay, name):
+        self.name = name
+        self.totalEmployees = totalEmployees
+        self.pay = pay
+
+
 # Main function
 if __name__ == '__main__':
     # Creating object with types
@@ -51,3 +59,9 @@ if __name__ == '__main__':
     newCar = Car(newCity.printCity(), 'Mercedes', 200, 'brown')
     # Called printing method from newCar.
     newCar.printCar()
+    emp1 = Employee()
+    emp1.name = 'John Doe'
+    emp1.totalEmployees = 100
+    emp1.pay = 20
+    print(emp1)
+
