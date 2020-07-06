@@ -51,6 +51,11 @@ class Employee:
         self.pay = pay
 
 
+# Function in order to sort objects. Return what we want to sort
+def empSort(emp):
+    return emp
+
+
 # Main function
 if __name__ == '__main__':
     # Creating object with types
@@ -59,9 +64,11 @@ if __name__ == '__main__':
     newCar = Car(newCity.printCity(), 'Mercedes', 200, 'brown')
     # Called printing method from newCar.
     newCar.printCar()
-    emp1 = Employee()
-    emp1.name = 'John Doe'
-    emp1.totalEmployees = 100
-    emp1.pay = 20
-    print(emp1)
+    # Printing employee information
+    emp1 = Employee(100, 20, 'John Doe')
+    emp2 = Employee(100, 10, 'Not John')
+    emp3 = Employee(200, 5, 'Doe Not')
+    allEmps = [emp1, emp2, emp3]
 
+    sortedEmp = sorted(allEmps, key=empSort)
+    print(sortedEmp)
