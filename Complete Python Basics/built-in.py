@@ -16,3 +16,26 @@ import sys, os, math
 from sys import *
 # The * shows it is an import of everything
 
+# Another example:
+
+from random import *
+
+# Instead of typing RANDOM.randint you can just type randint(1,10)
+randint(1, 10)
+
+# How to execute a program
+import sys
+from sys import *
+
+print('hello')
+# sys.exit() # can be used too
+# exit()
+# This print function will never be called
+print('ok')
+
+# Import pip modules. In this case import pyperclip
+
+import pyperclip
+
+pyperclip.copy('Hello World')
+pyperclip.paste()
