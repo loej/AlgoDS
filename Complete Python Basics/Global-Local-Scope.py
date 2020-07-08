@@ -146,3 +146,6 @@ def food():
 
 pizza = 'bad'
 food()
+
+# Why? This limits what can be inside a function inside python.
+# Function can act as 'black boxes'
