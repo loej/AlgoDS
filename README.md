@@ -1,4 +1,4 @@
-# Python: Basics & Data Structures :snake: 
+# Python: Basics & Data Structures :snake:
 The following programs cover the basics of Python, from print('Hello World') to Data Structures.
 The program is  based off of  various online tutorials and books. I will keep updating 
 the list of books and authors. Licensed under a Creative Commons licence.
@@ -14,3 +14,4 @@ the list of books and authors. Licensed under a Creative Commons licence.
 * [Built-in Libraries | Installing pip ](https://github.com/loej/Python-DataStructures/blob/master/Complete%20Python%20Basics/built-in.py)
 * [Functions](https://github.com/loej/Python-DataStructures/blob/master/Complete%20Python%20Basics/functions.py)
 * [Global and Local Scopes](https://github.com/loej/Python-DataStructures/blob/master/Complete%20Python%20Basics/Global-Local-Scope.py)
+* [Try and Except Statements](https://github.com/loej/Python-DataStructures/blob/master/Complete%20Python%20Basics/Global-Local-Scope.py)
