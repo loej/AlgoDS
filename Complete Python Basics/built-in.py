@@ -5,14 +5,14 @@
 
 import random
 
-# passes a random integer between 1 and 10
-# you need the module name when calling it
+# Passes a random integer between 1 and 10.
+# You need the module name when calling it.
 print(random.randint(1, 10))
 
-# An example of importing multiple libraries
+# An example of importing multiple libraries.
 import sys, os, math
 
-# You can also import everything from a standard library
+# You can also import everything from a standard library.
 from sys import *
 # The * shows it is an import of everything
 
@@ -20,20 +20,21 @@ from sys import *
 
 from random import *
 
-# Instead of typing RANDOM.randint you can just type randint(1,10)
+# Instead of typing RANDOM.randint you can just type randint(1,10).
 randint(1, 10)
 
-# How to execute a program
+# This is how you terminate a program:
 import sys
 from sys import *
 
 print('hello')
+# Uncomment the following section to use import sys example.
 # sys.exit() # can be used too
 # exit()
-# This print function will never be called
+# This print function will never be called.
 print('ok')
 
-# Import pip modules. In this case import pyperclip
+# Import pip modules. In this case import pyperclip.
 
 import pyperclip
 

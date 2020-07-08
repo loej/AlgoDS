@@ -1,4 +1,4 @@
-#[Automate the Boring Stuff with Python - Al Sweigart](http://automatetheboringstuff.com/)
+# [Automate the Boring Stuff with Python - Al Sweigart](http://automatetheboringstuff.com/)
 # Under the same creative commons license: https://creativecommons.org/licenses/by-nc-sa/3.0/
 
 # A more sophisticated way to verify name and age in a database; using basic if and else statements.
@@ -16,4 +16,3 @@ elif name == 'Ruddy' and age != 20 and password != 'Eggs and Bacon':
     print('Wrong name, password OR age. Try again')
 else:
     print('INTRUDER!')
-

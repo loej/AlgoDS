@@ -14,11 +14,11 @@ Hello()
 # Without a function defined you would have to copy and paste the code every single time.
 
 # You can call arguments.
-# Prints: 6
+# Prints: 6.
 print(len('string'))
 
 
-# Prints 11
+# Prints 11.
 
 def addNum(number):
     return number + 1
@@ -31,7 +31,7 @@ print(newNumber)
 
 print('Hello')
 
-# It returns Hello, without the parenthesis
+# It returns Hello, without the parenthesis.
 # print returns the string as a side affect. It returns None.
 # It represents the lack of a value.
 None
@@ -40,7 +40,7 @@ None
 # Even if a function does not return anything it returns None by default.
 spam = print()
 
-# Keyword Arguments: often used for optional arguments to pass to a function call
+# Keyword Arguments: often used for optional arguments to pass to a function call.
 print('Hello, World.')
 print('Hi, Mars.')
 
@@ -54,4 +54,3 @@ print('wow')
 # It automatically adds a single space between them.
 print('cat', 'dog', 'mouse', end=' ]')
 print('he', 'l', 'l', sep='--')
-

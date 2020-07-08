@@ -1,12 +1,12 @@
 # [Automate the Boring Stuff with Python - Al Sweigart](http://automatetheboringstuff.com/)
 # Under the same creative commons license: https://creativecommons.org/licenses/by-nc-sa/3.0/
 
-# Exists in the 'global' scope. (Global variable)
+# Exists in the 'global' scope. (Global variable).
 x = 100
 
 
 def example():
-    # Exists in the 'local' scope. (Local scope)
+    # Exists in the 'local' scope. (Local scope).
     # These variables won't exist after the program terminates.
     x = 100
     print(x)
@@ -34,8 +34,8 @@ def FizzBuzz(number):
         print('Not a Valid Number')
 
 
-# FizzBuzz(10)
-# print(number) [Uncomment this for the exmaple to work.
+# FizzBuzz(10) [Uncomment this for the exmaple to work]
+# print(number) [Uncomment this for the exmaple to work]
 print(x)
 
 
@@ -130,9 +130,9 @@ def number1():
 
 
 number = 100
-# Once it arrives here and number1() is called, the local scope is 'destroyed'
+# Once it arrives here and number1() is called, the local scope is 'destroyed'.
 number1()
-# This print() function now looks at the GLOBAL scope and print 200
+# This print() function now looks at the GLOBAL scope and print 200.
 print(number + number)
 
 
@@ -148,4 +148,4 @@ pizza = 'bad'
 food()
 
 # Why? This limits what can be inside a function inside python.
-# Function can act as 'black boxes'
+# Functions can act as 'black boxes'.
