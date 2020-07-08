@@ -14,4 +14,4 @@ the list of books and authors. Licensed under a Creative Commons licence.
 * [Built-in Libraries | Installing pip ](https://github.com/loej/Python-DataStructures/blob/master/Complete%20Python%20Basics/built-in.py)
 * [Functions](https://github.com/loej/Python-DataStructures/blob/master/Complete%20Python%20Basics/functions.py)
 * [Global and Local Scopes](https://github.com/loej/Python-DataStructures/blob/master/Complete%20Python%20Basics/Global-Local-Scope.py)
-+ [Try and Except Statements](https://github.com/loej/Python-DataStructures/blob/master/Complete%20Python%20Basics/Global-Local-Scope.py)
+* [Try and Except Statements](https://github.com/loej/Python-DataStructures/blob/master/Complete%20Python%20Basics/Global-Local-Scope.py)
