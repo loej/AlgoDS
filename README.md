@@ -1,6 +1,4 @@
-<center> 
-  Python: Basics & Data Structures :snake: 
-</center>
+# Python: Basics & Data Structures :snake: {style=text-align:center}
 The following programs cover the basics of Python, from print('Hello World') to Data Structures.
 The program is  based off of  various online tutorials and books. I will keep updating 
 the list of books and authors. Licensed under a Creative Commons licence.
