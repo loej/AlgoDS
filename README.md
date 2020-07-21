@@ -9,7 +9,7 @@ the list of books and authors. Licensed under a Creative Commons licence.
 
 ## Coding Bat Solutions
 
-- [Master List of Solutions]()
+- [Master List of Solutions](https://github.com/loej/Python-DataStructures/tree/master/Complete%20Python%20Basics/Coding%20Bat%20Solutions)
 
 ## Complete Python Basics
 
