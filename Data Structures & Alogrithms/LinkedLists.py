@@ -5,34 +5,35 @@
 class Node:
 
     def __init__(self, data):
-       self.data = data
-       self.next = None
+        self.data = data
+        self.next = None
 
-class LL:
-    
+class LinkedList:
+
     def __init__(self):
-        # Head does not point to anything (yet)
         self.head = None
     
-    def printLL(self):
-        tempRef = self.head
-        while(tempRef):
-            print(tempRef.data)
-            tempRef = tempRef.next
+    def loopLL(self):
+        ptr = self.head 
+        while ptr:
+            print(ptr.data)
+            ptr = ptr.next
 
+    def reverseLL(self):
+       pass
+
+
+
+        
 def main():
-    
-    # Create LL onject 
-    newLL = LL()
-    newLL.head = Node('programmer 1')
-    secondNode = Node('programmer 2')
-    thirdNode = Node('programmer 3')
+    LLOne = LinkedList()
+    LLOne.head = Node(3)
+    LLtwo = Node(5)
+    LLThree = Node(7)
 
-    newLL.head.next = secondNode
-    secondNode.next = thirdNode
-
-    newLL.printLL()
-
+    LLOne.head.next = LLtwo
+    LLtwo.next = LLThree
+    LLOne.loopLL()
 
 if __name__=='__main__':
     main()
