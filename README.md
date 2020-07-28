@@ -27,8 +27,10 @@ the list of books and authors. Licensed under a Creative Commons licence.
 ## Data Structures & Algorithms
 
 - [ ] Big-O Review
-- [ ] Linked Lists
+- [X] Linked Lists
 - [ ] Stacks and Queues
+  - [ ] Using Lists
+  - [ ] Stricter Implementations
 - [ ] Sequential and Binary Search
 - [ ] Binary Search Tree
 - [ ] AVL Tree
