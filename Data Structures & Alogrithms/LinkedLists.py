@@ -1,7 +1,6 @@
 # Linked List implementation:
 
 # 1. Create Node class which instantiates the data and next objects
-
 class Node:
 
     def __init__(self, data):
@@ -13,44 +12,58 @@ class LinkedList:
     def __init__(self):
         self.head = None
     
-    def loopLL(self):
-        ptr = self.head 
-        while ptr:
-            print(ptr.data)
-            ptr = ptr.next
-    
-    def locateNode(self, x):
-        temp = self.head 
-        while (temp is not None):
-            if (temp.data == x):
-                return temp.data
-        temp = temp.next
+    def addNode(self, item):
+        newNode = Node(item)
+        newNode.next = self.head
+        self.head = newNode
+        print(newNode.data)
 
     def reverseLL(self):
         prev = None 
+        curr = self.head
+        while(curr is not None):
+            next = curr.next
+            curr.next = prev 
+            prev = curr
+            curr = next 
+        self.head = prev
+    
+    def locateNode(self, x):
         curr = self.head 
         while (curr is not None):
-           next = curr.next
-           curr.next = prev 
-           prev = curr
-           curr = next
-        self.head = prev
-      
+            if (curr.data == x): 
+                print('The item you want is: ' + str(x))
+                break
+            else:
+                print('The item is not found.')
+            curr = curr.next 
+
+    def insertNode(self, nodeBefore, nodeAfter, item):
+        curr = self.head
+        if curr is None: return f'There are no inserts.'
+        while (curr is not None):
+            if curr.data == nodeBefore and curr.next == nodeAfter:
+                newNode = Node(item)
+                nodeBefore.next = newNode
+                newNode.next = nodeAfter
+            curr = curr.next
+
 def main():
-    LLOne = LinkedList()
-    LLOne.head = Node(3)
-    LLtwo = Node(5)
-    LLThree = Node(7)
-    LLfour = Node('hello')
+    # Create LL object 
+    LOne = LinkedList()
+    # LOne.head = Node('Program: 1')
+    # Has to add pointer first 
+    # print(LOne.head.data)
+    for i in range(0,10):
+        LOne.addNode(i)
+    LOne.locateNode(1)
+    LTwo = Node('twenty')
 
-    LLOne.head.next = LLtwo
-    LLtwo.next = LLThree
-    LLThree.next = LLfour
-    LLOne.loopLL()
-    LLOne.reverseLL()
-    print('--')
-    LLOne.loopLL()
-    LLOne.locateNode(3)
+    LOne.next = LTwo
+    LOne.reverseLL()
+    
+        
 
-if __name__=='__main__':
+
+if __name__=="__main__":
     main()
