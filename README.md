@@ -5,7 +5,9 @@ The program is based off of various online tutorials and books. I will keep upda
 the list of books and authors. Licensed under a Creative Commons licence.
 
 [Automate the Boring Stuff with Python - Al Sweigart](http://automatetheboringstuff.com/)
+
 [Rutgers University CS112 Curriculum](https://github.com/USMC1941/CS112-Rutgers)
+
 [All Coding Bat Solutions](Codingbat.com)
 
 ## Coding Bat Solutions
