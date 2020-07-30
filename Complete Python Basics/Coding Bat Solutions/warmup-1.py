@@ -78,8 +78,34 @@ def pos_neg(a, b, negative):
         return False
 # 9. not_string
 
-
 def not_string(str):
-    if len(str) >= 3 and str[:3] == "not":
-        return str
-    return "not " + str
+  if str[:3] == "not":
+    return str
+  else:
+    return "not "+ str
+
+# 10. missing_char
+
+def missing_char(str, n):
+  missing = str[:n]
+  front = str[n+1:]  
+  return missing + front
+
+# 11. front_back
+
+def front_back(str):
+  if len(str) <= 1:
+    return str
+  # the last element is len(str)-1
+  start = str[0] #inclusive
+  end = len(str)-1
+  # still need the middle 
+  middle = str[1:end]
+  return str[len(str)-1] + str[1:len(str)-1] + str[0]
+
+# 12. front3
+
+def front3(str):
+  multiple = str[0:3]
+  final = multiple*3
+  return final
