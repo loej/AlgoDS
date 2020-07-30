@@ -5,7 +5,8 @@ The program is based off of various online tutorials and books. I will keep upda
 the list of books and authors. Licensed under a Creative Commons licence.
 
 [Automate the Boring Stuff with Python - Al Sweigart](http://automatetheboringstuff.com/)
-[All Coding Bat Solutions](Codingbat.com)
+
+[Rutgers University CS112 Curriculum](https://github.com/USMC1941/CS112-Rutgers)
 
 ## Coding Bat Solutions
 
@@ -13,16 +14,16 @@ the list of books and authors. Licensed under a Creative Commons licence.
 
 ## Complete Python Basics
 
-- [Hello World](https://github.com/loej/Python-DataStructures/blob/master/Complete%20Python%20Basics/basics-HelloWorld.py)
-- [Booleans](https://github.com/loej/Python-DataStructures/blob/master/Complete%20Python%20Basics/boolean.py)
-- [Control Flow (If-Elif-Else)](https://github.com/loej/Python-DataStructures/blob/master/Complete%20Python%20Basics/if-ifelse-statements.py)
-- [While Loops](https://github.com/loej/Python-DataStructures/blob/master/Complete%20Python%20Basics/while-loops.py)
-- [For Loops](https://github.com/loej/Python-DataStructures/blob/master/Complete%20Python%20Basics/for-loops.py)
-- [Object Oriented Programming](https://github.com/loej/Python-DataStructures/blob/master/Complete%20Python%20Basics/OOP.py)
-- [Built-in Libraries | Installing pip ](https://github.com/loej/Python-DataStructures/blob/master/Complete%20Python%20Basics/built-in.py)
-- [Functions](https://github.com/loej/Python-DataStructures/blob/master/Complete%20Python%20Basics/functions.py)
-- [Global and Local Scopes](https://github.com/loej/Python-DataStructures/blob/master/Complete%20Python%20Basics/Global-Local-Scope.py)
-- [Try and Except Statements](https://github.com/loej/Python-DataStructures/blob/master/Complete%20Python%20Basics/Global-Local-Scope.py)
+- [X] [Hello World](https://github.com/loej/Python-DataStructures/blob/master/Complete%20Python%20Basics/basics-HelloWorld.py)
+- [X] [Booleans](https://github.com/loej/Python-DataStructures/blob/master/Complete%20Python%20Basics/boolean.py)
+- [X] [Control Flow (If-Elif-Else)](https://github.com/loej/Python-DataStructures/blob/master/Complete%20Python%20Basics/if-ifelse-statements.py)
+- [X] [While Loops](https://github.com/loej/Python-DataStructures/blob/master/Complete%20Python%20Basics/while-loops.py)
+- [X] [For Loops](https://github.com/loej/Python-DataStructures/blob/master/Complete%20Python%20Basics/for-loops.py)
+- [X] [Object Oriented Programming](https://github.com/loej/Python-DataStructures/blob/master/Complete%20Python%20Basics/OOP.py)
+- [X] [Built-in Libraries | Installing pip ](https://github.com/loej/Python-DataStructures/blob/master/Complete%20Python%20Basics/built-in.py)
+- [X] [Functions](https://github.com/loej/Python-DataStructures/blob/master/Complete%20Python%20Basics/functions.py)
+- [X] [Global and Local Scopes](https://github.com/loej/Python-DataStructures/blob/master/Complete%20Python%20Basics/Global-Local-Scope.py)
+- [X] [Try and Except Statements](https://github.com/loej/Python-DataStructures/blob/master/Complete%20Python%20Basics/Global-Local-Scope.py)
 
 ## Data Structures & Algorithms
 
