@@ -25,10 +25,12 @@ class OnBoard:
 
         print('Employee List:' + str(employeesList))
         for i in range(len(employeesList)):
-            iteration = employeesList[i]
-            for j in iteration:
+            print(employeesList[i])
+            for j in employeesList[i]:
                 print(j, end="|")
+                print()
         return employeesList
+
 
 if __name__=="__main__":
     listEmployees = ["hello", "avatar", "aang"]
