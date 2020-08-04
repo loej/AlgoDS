@@ -39,9 +39,8 @@ class LinkedList:
 
 
 def main():
-    LL = LinkedList()
-    LL.makeNewNode(10)
-    
+    link = LinkedList()    
+    link.makeNewNode(10)
         
 
 
