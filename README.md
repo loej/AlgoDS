@@ -33,9 +33,9 @@ the list of books and authors. Licensed under a Creative Commons licence.
 - [x] [Lists](https://github.com/loej/Python-DataStructures/blob/master/Complete%20Python%20Basics/Lists.py)
 
 ## Data Structures & Algorithms
-- CTCI
-  - [ ] Big-O Review
-  - [ ] Technical Quesitons
+- [ ] [CTCI](https://github.com/loej/Python-DataStructures/tree/master/Data%20Structures%20%26%20Alogrithms/CTCI)
+  - [ ] [Big-O Review](https://github.com/loej/Python-DataStructures/blob/master/Data%20Structures%20%26%20Alogrithms/CTCI/Big-O-Review.md)
+  - [ ] [Technical Review](https://github.com/loej/Python-DataStructures/tree/master/Data%20Structures%20%26%20Alogrithms/CTCI/Technical%20Review)
 - [X] [Linked Lists](https://github.com/loej/Python-DataStructures/blob/master/Data%20Structures%20%26%20Alogrithms/LinkedLists.py)
 - [ ] Stacks and Queues
   - [x] [Using Lists](https://github.com/loej/Python-DataStructures/blob/master/Data%20Structures%20%26%20Alogrithms/Stacks-Queues-LISTS.py)
