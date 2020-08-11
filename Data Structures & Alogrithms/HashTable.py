@@ -1,3 +1,5 @@
+#!/usr/bin/python3 
+
 # Hashtables in Python using dictionaries. 
 # Using hash values
 

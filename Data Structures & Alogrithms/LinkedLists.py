@@ -1,3 +1,5 @@
+#!/usr/bin/python3 
+
 # Linked List implementation:
 
 # 1. Create Node class which instantiates the data and next objects
