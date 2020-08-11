@@ -3,18 +3,25 @@
 # Hashtables in Python using dictionaries. 
 # Using hash values
 
-# We are going to use the abstract data type of Map()
+country_state = {'USA':'CA', 'CANADA':'QU', 'INDIA' : 'NEPAL'}
+hashTable = [None] * 9
+# 0 - m-1 
+print(hashTable)
 
-class HashTable:
+# Conventional hasfunction
+def hashFunction(item):
+    # Use MOD
+    return item%len(hashTable)
 
-    def __init__(self):
-        # Size of the table 0 - 10 
-        self.size = 11
-        # Size fo the slots 0 - 10 * [ None ]
-        self.slots = self.size * [None]
-        self.data = self.size * [None]
+print(hashFunction(10))
+print(hashFunction(90))
+print(hashFunction(288282))
 
-    def put(self, key, data):
-        # hashfunction simply implements a remainder function
-        hasvalue = self.hashfunction(key, len(self.slots))
-        
+# Inserting the data into a the hastable 
+
+def insertItem(hashTable, item, value):
+    hashKey = hashFunction(item)
+    hashTable[hashKey] = value
+
+insertItem(hashTable,10, 'CA')
+print(hashTable)
