@@ -1,3 +1,5 @@
+#!/usr/bin/python3 
+
 # Stacks and Queues implementation:
 
 #A Stacka is Last in First Out === LIFO
