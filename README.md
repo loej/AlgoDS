@@ -1,4 +1,4 @@
-<h1 align="center">Algorithms & Data Structures</h1>
+<h1 align="center"> 🧮 AlgoDS</h1>
 
 
 <div align="center">
