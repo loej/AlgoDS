@@ -1,9 +1,9 @@
-<h1 align="center"> 🧮 AlgoDS</h1>
+<h1 align="center"> AlgoDS</h1>
 
 
 <div align="center">
   <a>
-    <img src="other/AlgoDS.png" width="300">
+    <img src="other/AlgoDS.png" width="250">
   </a>
 </div>
 
