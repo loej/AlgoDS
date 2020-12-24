@@ -13,11 +13,12 @@ The program is based off of various online tutorials and books. I will keep upda
 the list of books and authors. Licensed under a Creative Commons licence.
 
 ## Content Covered 
-+ [Java](https://github.com/loej/AlgoDS/blob/master/Java/java.md)
-+ [Python](https://github.com/loej/AlgoDS/blob/master/Python/python.md)
-+ [C++]( https://github.com/loej/AlgoDS/blob/master/C%2B%2B/cpp.md )
++ [Sorting]()
++ [Searching]()
++ [Graphs]()
++ [Data Structures]()
 
-## Table of contents  
+## Implementations 
 + [Java Implementations](https://github.com/loej/AlgoDS/tree/master/Java)
 + [Python Implementations](https://github.com/loej/AlgoDS/tree/master/Python)
 + [C++ Implementations](https://github.com/loej/AlgoDS/tree/master/C%2B%2B)
