@@ -5,14 +5,14 @@ The program is based off of various online tutorials and books. I will keep upda
 the list of books and authors. Licensed under a Creative Commons licence.
 
 ## Table of contents  
-+ Java 
-+ Python
-+ C++
++ [Java Implementations](https://github.com/loej/AlgoDS/tree/master/Java)
++ [Python Implementations](https://github.com/loej/AlgoDS/tree/master/Python)
++ [C++ Implementations](https://github.com/loej/AlgoDS/tree/master/C%2B%2B)
 
 ## Content Covered 
-+ [Java README]
-+ [Python README]
-+ [C++ README] 
++ [Java](https://github.com/loej/AlgoDS/blob/master/Java/java.md)
++ [Python](https://github.com/loej/AlgoDS/blob/master/Python/python.md)
++ [C++]( https://github.com/loej/AlgoDS/blob/master/C%2B%2B/cpp.md )
 
 ## Referenced Books
 + [Automate the Boring Stuff with Python - Al Sweigart](http://automatetheboringstuff.com/)
@@ -24,7 +24,7 @@ the list of books and authors. Licensed under a Creative Commons licence.
 + [Rutgers University CS112 Curriculum](https://github.com/USMC1941/CS112-Rutgers)
 
 ## Coding Bat Solutions
++ [Master List of Solutions](https://github.com/loej/AlgoDS/tree/master/Coding%20Bat%20Solutions):w
 
-- [Master List of Solutions](https://github.com/loej/Python-DataStructures/tree/master/Complete%20Python%20Basics/Coding%20Bat%20Solutions)
 
 
