@@ -1,9 +1,16 @@
 <h1 align="center">Algorithms & Data Structures</h1>
 
-The following program covers the basics of Algorithms and Data Structures. We'll be diving into Python, Java and C++. 
+
+<div align="center">
+  <a>
+    <img src="other/AlgoDS.png" width="600">
+  </a>
+</div>
+
+
+This repository covers the basics of Algorithms and Data Structures. We'll be diving into Python, Java and C++. 
 The program is based off of various online tutorials and books. I will keep updating
 the list of books and authors. Licensed under a Creative Commons licence.
-
 
 ## Content Covered 
 + [Java](https://github.com/loej/AlgoDS/blob/master/Java/java.md)
