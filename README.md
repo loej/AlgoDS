@@ -4,15 +4,16 @@ The following program covers the basics of Algorithms and Data Structures. We'll
 The program is based off of various online tutorials and books. I will keep updating
 the list of books and authors. Licensed under a Creative Commons licence.
 
-## Table of contents  
-+ [Java Implementations](https://github.com/loej/AlgoDS/tree/master/Java)
-+ [Python Implementations](https://github.com/loej/AlgoDS/tree/master/Python)
-+ [C++ Implementations](https://github.com/loej/AlgoDS/tree/master/C%2B%2B)
 
 ## Content Covered 
 + [Java](https://github.com/loej/AlgoDS/blob/master/Java/java.md)
 + [Python](https://github.com/loej/AlgoDS/blob/master/Python/python.md)
 + [C++]( https://github.com/loej/AlgoDS/blob/master/C%2B%2B/cpp.md )
+
+## Table of contents  
++ [Java Implementations](https://github.com/loej/AlgoDS/tree/master/Java)
++ [Python Implementations](https://github.com/loej/AlgoDS/tree/master/Python)
++ [C++ Implementations](https://github.com/loej/AlgoDS/tree/master/C%2B%2B)
 
 ## Referenced Books
 + [Automate the Boring Stuff with Python - Al Sweigart](http://automatetheboringstuff.com/)
