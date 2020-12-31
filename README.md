@@ -22,6 +22,7 @@ the list of books and authors. Licensed under a Creative Commons licence.
 + [Java Implementations](https://github.com/loej/AlgoDS/tree/master/Java)
 + [Python Implementations](https://github.com/loej/AlgoDS/tree/master/Python)
 + [C++ Implementations](https://github.com/loej/AlgoDS/tree/master/C%2B%2B)
++ [JS Implementations](https://github.com/loej/AlgoDS/tree/master/JavaScript)
 
 ## Referenced Books
 + [Automate the Boring Stuff with Python - Al Sweigart](http://automatetheboringstuff.com/)
