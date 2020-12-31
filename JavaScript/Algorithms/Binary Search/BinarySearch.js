@@ -21,5 +21,5 @@ function binary_search(array, target){
 }
 
 let array = [1,2,3,4,5,6]
-let target = 10
+let target = 1
 console.log(binary_search(array,target))
