@@ -1,6 +1,6 @@
 // requires discord.js
 const Discord = require('discord.js')
-const config = require('config.json')
+const {token, prefix} = require('../config.json')
 
 // client
 const client = new Discord.Client()
@@ -32,13 +32,5 @@ client.on('message', message => {
     }
 })
 
-let message_arr = []
-
-client.on('message', message => {
-    message_arr.push(message.content)
-})
-
-
 //logins in as the client for algobot
-client.login(config.token)
-
+client.login(token)

@@ -3,7 +3,7 @@
 
 <div align="center">
   <a>
-    <img src="other/AlgoDS.png" width="250">
+    <img src="Code/other/AlgoDS.png" width="250">
   </a>
 </div>
 
@@ -34,7 +34,7 @@ the list of books and authors. Licensed under a Creative Commons licence.
 + [Rutgers University CS112 Curriculum](https://github.com/USMC1941/CS112-Rutgers)
 
 ## Coding Bat Solutions
-+ [Master List of Solutions](https://github.com/loej/AlgoDS/tree/master/Coding%20Bat%20Solutions):w
++ [Master List of Solutions](https://github.com/loej/AlgoDS/tree/master/Coding%20Bat%20Solutions)
 
 
 
