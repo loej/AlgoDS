@@ -3,7 +3,7 @@
 
 <div align="center">
   <a>
-    <img src="Code/other/AlgoDS.png" width="250">
+    <img src="Algorithms/other/AlgoDS.png" width="250">
   </a>
 </div>
 

@@ -14,10 +14,10 @@ def example():
 
 # both x's are not in the same scope.
 
-# 1. Code in the global scopes cannot use the variables in the local scope.
+# 1. Algorithms in the global scopes cannot use the variables in the local scope.
 # 2. However, code in the local scope CAN use the variables from the global scope.
-# 3. Code in one's local scope cannot use code in another's local scope.
-# 4. Code in one's function local scope cannot use variables in any other local scope.
+# 3. Algorithms in one's local scope cannot use code in another's local scope.
+# 4. Algorithms in one's function local scope cannot use variables in any other local scope.
 
 # This block of code will NOT work:
 
