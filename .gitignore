@@ -5,3 +5,9 @@
 Algorithms_Visualized/
 AlgoDSBot/main/config.json
 Algorithms/Algorithms_CS344/Class_Algos/
+# AlgoDS Bot
+AlgoDSBot/main/__pychache___/
+AlgoDSBot/main/basic_commands/__pycache__/
+__pycache__/
+*.py[cod]
+*$py.class
