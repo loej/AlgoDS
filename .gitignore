@@ -3,11 +3,11 @@
 .vscode
 .DS_Store
 Algorithms_Visualized/
-AlgoDSBot/main/config.json
+AlgoDSBot/src/config.json
 Algorithms/Algorithms_CS344/Class_Algos/
 # AlgoDS Bot
-AlgoDSBot/main/__pycache__
-AlgoDSBot/main/basic_commands/__pycache__/
+AlgoDSBot/src/__pycache__
+AlgoDSBot/src/cogs/__pycache__/
 __pycache__/
 *.py[cod]
 *$py.class
