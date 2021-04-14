@@ -10,6 +10,10 @@ discord_token = Settings('DISCORD_TOKEN').data
 
 
 def setCogs(AlgoDSBot):
+    """
+    Initializes every Cog file.
+    :param AlgoDSBot: AlgoDS Bot object being passed, loads extensions.
+    """
     cogs = os.listdir('cogs/')
     for file in cogs:
         if file == '__init__.py' or file == '__pycache__':

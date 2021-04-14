@@ -1,6 +1,7 @@
 import discord
 import random
 from discord.ext import commands
+import discord as disc
 from settings import Settings
 
 """

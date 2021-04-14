@@ -4,7 +4,7 @@ from settings import Settings
 
 userID = Settings('CREATOR_USER_ID').data
 
-friends = {1: "benry", 2: "edrick", 3: "andres", 4: "bames", 5: "boel"}
+friends = {1: "benry", 2: "edrick", 3: "andres", 4: "bames", 5: "boel", 6: "axel"}
 reactions = {1: '🍖', 2: '🤡', 3: '❤'}
 
 
