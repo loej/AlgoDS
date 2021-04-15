@@ -1,6 +1,7 @@
 from discord.ext import commands
 from settings import Settings
 import discord as disc
+import json
 
 creator = Settings("CREATOR_USER_ID").data
 prefix = Settings("PREFIX").data
@@ -32,11 +33,29 @@ class Utilities(commands.Cog):
     @commands.command("about")
     async def about(self, ctx):
         userid = f'<@!{creator}>'
-        url = "https://github.com/loej/AlgoDS"
         about_description = f"AlgoDS is a Discord bot made to showcase popular algorithms. It's made by {userid}, an" \
                             f" undergrad CS student at Rutgers University."
         embed = Utilities.set_embeds(f"AlgoDS", "What is this?", about_description)
         await ctx.send(embed=embed)
+
+    @commands.command("setPrefix")
+    async def set_prefix(self, ctx, arg):
+        passed_prefix = str(arg)
+        if passed_prefix == " ":
+            ctx.send(f"{ctx.author.mention}, please input valid character for your prefix.")
+        else:
+            """
+            We need to have a config.json file here
+            """
+            with open("../config.json", "r") as jsonFile:
+                data = json.load(jsonFile)
+                jsonFile.close()
+            data["PREFIX"] = passed_prefix
+            print('123')
+            with open("../config.json", "w") as jsonFile:
+                json.dump(data, jsonFile)
+                jsonFile.close()
+            print("hmm")
 
     @commands.command('commands')
     async def send_total_commands(self, ctx):
