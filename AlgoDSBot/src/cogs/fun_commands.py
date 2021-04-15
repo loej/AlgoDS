@@ -24,6 +24,5 @@ class FunCommands(commands.Cog):
             await message.add_reaction(reactions.get(random.randint(1, 3)))
 
 
-
 def setup(AlgoDS):
     AlgoDS.add_cog(FunCommands(AlgoDS))
