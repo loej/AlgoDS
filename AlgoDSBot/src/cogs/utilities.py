@@ -12,10 +12,6 @@ class Utilities(commands.Cog):
     def __init__(self, AlgoDS):
         self.AlgoDS = AlgoDS
 
-    @commands.Cog.listener("on_command_error")
-    async def commands_warned(self, ctx, error):
-        if isinstance(error, commands.MissingRequiredArgument):
-            await ctx.send(f"{ctx.author.mention}, please send an argument along with your command.")
 
     @staticmethod
     def set_embeds(title, subtitle, description):
@@ -38,24 +34,19 @@ class Utilities(commands.Cog):
         embed = Utilities.set_embeds(f"AlgoDS", "What is this?", about_description)
         await ctx.send(embed=embed)
 
+    @staticmethod
+    def get_json_data():
+        with open('../config.json', 'r') as file:
+            data = json.load(file)
+        return data
+
     @commands.command("setPrefix")
     async def set_prefix(self, ctx, arg):
         passed_prefix = str(arg)
-        if passed_prefix == " ":
-            ctx.send(f"{ctx.author.mention}, please input valid character for your prefix.")
-        else:
-            """
-            We need to have a config.json file here
-            """
-            with open("../config.json", "r") as jsonFile:
-                data = json.load(jsonFile)
-                jsonFile.close()
-            data["PREFIX"] = passed_prefix
-            print('123')
-            with open("../config.json", "w") as jsonFile:
-                json.dump(data, jsonFile)
-                jsonFile.close()
-            print("hmm")
+        """
+        We need to have a config.json file here
+        """
+        print(Utilities.get_json_data())
 
     @commands.command('commands')
     async def send_total_commands(self, ctx):
