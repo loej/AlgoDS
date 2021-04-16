@@ -1,10 +1,11 @@
-from discord.ext import commands
 import requests
+import random
 from bs4 import BeautifulSoup
 from cogs.embeds import Embeds
-import random
+from discord.ext import commands
 
 cast_iron_pot = requests.get("https://castironpotbbq.com/menu/")
+cast_iron_images = requests.get("https://castironpotbbq.com/gallery/")
 
 
 class Kbbq(commands.Cog):
@@ -12,14 +13,14 @@ class Kbbq(commands.Cog):
     def __init__(self, AlgoDS):
         self.AlgoDS = AlgoDS
 
-    @commands.command("kbbq")
+    @commands.command("kbbqStatus")
     @commands.is_owner()
     async def test_connection(self, ctx):
         embed = Embeds.set_embeds(f"Request sent to {cast_iron_pot.url}", f"Status code: {cast_iron_pot.status_code}",
                                   None, 'default')
         await ctx.send(embed=embed)
 
-    @commands.command("kcontent")
+    @commands.command("menu")
     @commands.is_owner()
     async def getContent(self, ctx, ):
         content = BeautifulSoup(cast_iron_pot.content, 'html5lib')
@@ -27,7 +28,7 @@ class Kbbq(commands.Cog):
         returned_food = '\n'.join([str(element.text) for element in finding_all])
         await ctx.send(returned_food)
 
-    @commands.command('orderKbbq')
+    @commands.command('kbbq')
     async def order_kbbq(self, ctx):
         menu = BeautifulSoup(cast_iron_pot.content, 'html5lib')
         find_items = menu.findAll('figcaption', attrs={'class': 'widget-image-caption wp-caption-text'})
@@ -50,6 +51,25 @@ class Kbbq(commands.Cog):
         data = "\n".join([str(element) for element in returned_items])
         embed = Embeds.set_embeds("Cast Iron Pot - Orders:", "Randomly Picked Orders", data, 'kbbq')
         await ctx.send(embed=embed)
+
+    @commands.command("showKbbq")
+    async def get_kbbq_images(self, ctx):
+        images = BeautifulSoup(cast_iron_images.content, 'html5lib')
+        find_images = images.findAll('img', attrs={'class': 'attachment-post-thumbnail size-post-thumbnail'})
+        valid_images = ['uploads/2020/09/o-2-370x265.jpg', 'uploads/2020/09/o-370x265.jpg',
+                        'uploads/2020/09/o-8-370x265.jpg', 'uploads/2020/09/o-7-370x265.jpg',
+                        'uploads/2020/09/o-5-370x265.jpg']
+        # Getting the images and slicing the string
+        main_pic = ''
+        for food_image in find_images:
+            url = food_image.attrs['src']
+            url = url[38:len(url)]
+            url = str(url)
+            if url in valid_images:
+                choose = random.choice(valid_images)
+                main_pic = 'https://castironpotbbq.com/wp-content/'+choose
+        print(main_pic)
+        pass
 
 
 def setup(AlgoDS):

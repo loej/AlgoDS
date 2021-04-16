@@ -1,6 +1,5 @@
-import requests
-from discord.ext import commands
 import discord as disc
+from discord.ext import commands
 
 
 class Embeds(commands.Cog):
