@@ -1,3 +1,4 @@
+from selenium import webdriver
 from discord.ext import commands
 from bs4 import BeautifulSoup as bsp
 from settings import Settings

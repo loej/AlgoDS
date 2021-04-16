@@ -67,9 +67,10 @@ class Kbbq(commands.Cog):
             url = str(url)
             if url in valid_images:
                 choose = random.choice(valid_images)
-                main_pic = 'https://castironpotbbq.com/wp-content/'+choose
-        print(main_pic)
-        pass
+                main_pic = 'https://castironpotbbq.com/wp-content/' + choose
+                break
+        embed = Embeds.set_embeds("Cast Iron Pot - Preview", "Recent Image", "AYCE Kbbq", 'kbbq', main_pic)
+        await ctx.send(embed=embed)
 
 
 def setup(AlgoDS):
