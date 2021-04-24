@@ -49,7 +49,7 @@ class Kbbq(commands.Cog):
                 returned_items.append(choice)
 
         data = "\n".join([str(element) for element in returned_items])
-        embed = Embeds.set_embeds("Cast Iron Pot - Orders:", "Randomly Picked Orders", data, 'kbbq')
+        embed = Embeds.set_embeds("Cast Iron Pot - Orders:", "Randomly Picked Orders", data, 'kbbq', None)
         await ctx.send(embed=embed)
 
     @commands.command("showKbbq")

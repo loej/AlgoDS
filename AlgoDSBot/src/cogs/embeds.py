@@ -17,7 +17,8 @@ class Embeds(commands.Cog):
             embed.set_thumbnail(url="https://castironpotbbq.com/wp-content/uploads/2019/03/blk-stroke.png")
             embed.add_field(name="All you can eat Korean BBQ.", value="Dinner $24.95 per person for the good stuff!",
                             inline=False)
-            embed.set_image(url=alt_image)
+            if alt_image is not None:
+                embed.set_image(url=alt_image)
         if data is None:
             embed.add_field(name=subtitle, value="\u200b", inline=True)
         else:
