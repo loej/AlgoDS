@@ -25,6 +25,14 @@ class Embeds(commands.Cog):
             embed.add_field(name=subtitle, value=data, inline=True)
         return embed
 
+    @staticmethod
+    def set_algo_embed(title, image):
+        embed = disc.Embed(title=title, color=0xFF0000)\
+            .set_thumbnail(url="https://raw.githubusercontent.com/loej/AlgoDS/master/Algorithms/other/AlgoDSIcon.png")\
+            .add_field(name="Algorithm", value="\u200b")\
+            .set_image(url=image)
+        return embed
+
 
 def setup(AlgoDS):
     AlgoDS.add_cog(Embeds(AlgoDS))

@@ -1,11 +1,11 @@
 import requests
+import json
 from selenium import webdriver
 from settings import Settings
+from cogs.embeds import Embeds
+from algo_requests.algorithm_content import Algorithm as Algo
 from discord.ext import commands
 from bs4 import BeautifulSoup as bsp
-
-example_search = requests.get("https://github.com/loej/AlgoDS/blob/master/Algorithms/Java/Java%20-%20Seaching"
-                              "/LinearSearch.java")
 
 
 class CarbonRequests(commands.Cog):
@@ -21,12 +21,21 @@ class CarbonRequests(commands.Cog):
     @commands.command('ec')
     @commands.is_owner()
     async def eval_carbon(self, ctx):
-        algorithm = bsp(example_search.content, features='html.parser')
-        fining = algorithm.findAll('td', attrs={'class':'blob-code blob-code-inner js-file-line'} )
-        content = ''.join([str(code.text) for code in fining])
-        content = f"```java{content}```"
-        print(content)
-        await ctx.send(content)
+        algorithm = Algo("Java", "Seaching", "BinarySearch").request_algorithm()
+
+        await ctx.send(algorithm)
+
+    @commands.command('ccA')
+    @commands.is_owner()
+    async def eval_requests(self, ctx):
+        parameters = {
+            "code": "123"
+        }
+        algo_request = requests.get(url="https://carbonnowsh.herokuapp.com/", params=parameters)
+        # embed = Embeds.set_algo_embed("title", algo_request.url)
+        print(algo_request.status_code)
+        print(algo_request.url)
+        await ctx.send(embed=Embeds.set_algo_embed("title", algo_request.url))
 
 
 def setup(AlgoDS):
